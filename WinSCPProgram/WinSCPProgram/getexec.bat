@@ -1,0 +1,1 @@
+xcopy /s /y C:\Users\Massimo\Desktop\WinSCPProgram\Debug\WinSCPProgram.exe C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram

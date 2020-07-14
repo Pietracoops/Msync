@@ -1,0 +1,17 @@
+Searching for host...
+Connecting to host...
+Authenticating...
+Using username "root".
+Authenticating with pre-entered password.
+Authenticated.
+Starting the session...
+Session started.
+Active session: [1] root@192.168.2.52
+Comparing...
+Local 'C:\Users\Massimo\Desktop\synergy_stuff2' => Remote '/home/massimo/Desktop/testerino/yolo'
+Error listing directory '/home/massimo/Desktop/testerino/yolo'.
+No such file or directory.
+Error code: 2
+Error message from server: No such file
+(A)bort, (R)etry, (S)kip: Abort
+

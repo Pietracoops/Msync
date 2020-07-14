@@ -1,0 +1,11 @@
+
+
+Choose Project -> Properties
+Select Configuration -> General
+In the box for how you should link MFC, choose to statically link it.
+Choose Linker -> Input. Under Additional Dependencies, add any libraries you need your app to statically link in.
+
+edited Feb 27 '17 at 16:41
+
+I could be missing something (I'm nothing of an expert) but after following your steps I still have to package all dll's in the exe folder. Wasn't it OP's intention to have everything packaged into the exe file? – Malabarba Sep 7 '11 at 4:09
+@BruceConnor. Linking libraries statically includes them into the executable file. The opposite is called dynamical linking which would let the executable look for dlls (= dunamic link library) at startup. – danijar Jan 26 '13 at 10:42

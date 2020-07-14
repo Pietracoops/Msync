@@ -1,0 +1,177 @@
+. 2019-03-29 14:45:05.384 --------------------------------------------------------------------------
+. 2019-03-29 14:45:05.385 WinSCP Version 5.13.2 (Build 8455) (OS 10.0.17763 - Windows 10 Home)
+. 2019-03-29 14:45:05.385 Configuration: nul
+. 2019-03-29 14:45:05.385 Log level: Normal
+. 2019-03-29 14:45:05.385 Local account: OBERON\Massimo
+. 2019-03-29 14:45:05.385 Working directory: C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram
+. 2019-03-29 14:45:05.385 Process ID: 10532
+. 2019-03-29 14:45:05.385 Command-line: "C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\WinSCP.exe" /console=5.13.2 /consoleinstance=_8668_984 "/ini=nul" "/script=C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\script.txt" "/log=C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\winscp.log" "/loglevel=0" 
+. 2019-03-29 14:45:05.386 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 2019-03-10, DST End: 2019-11-03
+. 2019-03-29 14:45:05.386 Login time: March 29, 2019 2:45:05 PM
+. 2019-03-29 14:45:05.386 --------------------------------------------------------------------------
+. 2019-03-29 14:45:05.386 Script: Retrospectively logging previous script records:
+> 2019-03-29 14:45:05.386 Script: open sftp://root:***@192.168.2.52 -hostkey="ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf"
+. 2019-03-29 14:45:05.386 --------------------------------------------------------------------------
+. 2019-03-29 14:45:05.386 Session name: root@192.168.2.52 (Ad-Hoc site)
+. 2019-03-29 14:45:05.386 Host name: 192.168.2.52 (Port: 22)
+. 2019-03-29 14:45:05.386 User name: root (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-29 14:45:05.386 Tunnel: No
+. 2019-03-29 14:45:05.386 Transfer Protocol: SFTP
+. 2019-03-29 14:45:05.386 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-29 14:45:05.386 Disable Nagle: No
+. 2019-03-29 14:45:05.386 Proxy: None
+. 2019-03-29 14:45:05.386 Send buffer: 262144
+. 2019-03-29 14:45:05.386 SSH protocol version: 2; Compression: No
+. 2019-03-29 14:45:05.386 Bypass authentication: No
+. 2019-03-29 14:45:05.386 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-29 14:45:05.386 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-29 14:45:05.386 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-29 14:45:05.386 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-29 14:45:05.386 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-29 14:45:05.386 Simple channel: Yes
+. 2019-03-29 14:45:05.386 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-29 14:45:05.386 Shell: default
+. 2019-03-29 14:45:05.387 EOL: LF, UTF: Auto
+. 2019-03-29 14:45:05.387 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-29 14:45:05.387 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-29 14:45:05.387 SFTP Bugs: Auto,Auto
+. 2019-03-29 14:45:05.387 SFTP Server: default
+. 2019-03-29 14:45:05.387 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-29 14:45:05.387 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-29 14:45:05.387 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-29 14:45:05.387 DST mode: Unix
+. 2019-03-29 14:45:05.387 --------------------------------------------------------------------------
+. 2019-03-29 14:45:05.387 Looking up host "192.168.2.52" for SSH connection
+. 2019-03-29 14:45:05.388 Connecting to 192.168.2.52 port 22
+. 2019-03-29 14:45:05.390 We claim version: SSH-2.0-WinSCP_release_5.13.2
+. 2019-03-29 14:45:05.417 Server version: SSH-2.0-OpenSSH_7.4
+. 2019-03-29 14:45:05.417 Using SSH protocol version 2
+. 2019-03-29 14:45:05.418 Have a known host key of type ssh-ed25519
+. 2019-03-29 14:45:05.420 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-29 14:45:06.232 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-29 14:45:06.233 Host key fingerprint is:
+. 2019-03-29 14:45:06.233 ssh-ed25519 256 67:95:53:a6:79:02:63:96:14:bb:5b:3f:2c:f8:f5:a6 NjP1Q4j2GaWH3ZZFrCrgxkTiUNBlRdEzCj+Ztyz+eQY=
+. 2019-03-29 14:45:06.233 Host key does not match configured key ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf
+. 2019-03-29 14:45:06.234 Attempt to close connection due to fatal exception:
+* 2019-03-29 14:45:06.234 Host key fingerprint is ssh-ed25519 256 NjP1Q4j2GaWH3ZZFrCrgxkTiUNBlRdEzCj+Ztyz+eQY=.
+* 2019-03-29 14:45:06.234 (Exception) **Host key does not match configured key "ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf"!**
+. 2019-03-29 14:45:06.234 Closing connection.
+. 2019-03-29 14:45:06.234 Sending special code: 12
+. 2019-03-29 15:03:25.992 --------------------------------------------------------------------------
+. 2019-03-29 15:03:25.992 WinSCP Version 5.13.2 (Build 8455) (OS 10.0.17763 - Windows 10 Home)
+. 2019-03-29 15:03:25.992 Configuration: nul
+. 2019-03-29 15:03:25.992 Log level: Normal
+. 2019-03-29 15:03:25.992 Local account: OBERON\Massimo
+. 2019-03-29 15:03:25.992 Working directory: C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram
+. 2019-03-29 15:03:25.993 Process ID: 15624
+. 2019-03-29 15:03:25.993 Command-line: "C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\WinSCP.exe" /console=5.13.2 /consoleinstance=_8260_368 "/ini=nul" "/script=C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\script.txt" "/log=C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\winscp.log" "/loglevel=0" 
+. 2019-03-29 15:03:25.993 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 2019-03-10, DST End: 2019-11-03
+. 2019-03-29 15:03:25.994 Login time: March 29, 2019 3:03:25 PM
+. 2019-03-29 15:03:25.994 --------------------------------------------------------------------------
+. 2019-03-29 15:03:25.994 Script: Retrospectively logging previous script records:
+> 2019-03-29 15:03:25.994 Script: open sftp://root:***@192.168.2.52 -hostkey="ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf"
+. 2019-03-29 15:03:25.994 --------------------------------------------------------------------------
+. 2019-03-29 15:03:25.994 Session name: root@192.168.2.52 (Ad-Hoc site)
+. 2019-03-29 15:03:25.994 Host name: 192.168.2.52 (Port: 22)
+. 2019-03-29 15:03:25.994 User name: root (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-29 15:03:25.994 Tunnel: No
+. 2019-03-29 15:03:25.994 Transfer Protocol: SFTP
+. 2019-03-29 15:03:25.994 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-29 15:03:25.994 Disable Nagle: No
+. 2019-03-29 15:03:25.994 Proxy: None
+. 2019-03-29 15:03:25.994 Send buffer: 262144
+. 2019-03-29 15:03:25.994 SSH protocol version: 2; Compression: No
+. 2019-03-29 15:03:25.994 Bypass authentication: No
+. 2019-03-29 15:03:25.994 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-29 15:03:25.994 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-29 15:03:25.994 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-29 15:03:25.994 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-29 15:03:25.994 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-29 15:03:25.994 Simple channel: Yes
+. 2019-03-29 15:03:25.994 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-29 15:03:25.994 Shell: default
+. 2019-03-29 15:03:25.994 EOL: LF, UTF: Auto
+. 2019-03-29 15:03:25.994 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-29 15:03:25.994 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-29 15:03:25.994 SFTP Bugs: Auto,Auto
+. 2019-03-29 15:03:25.994 SFTP Server: default
+. 2019-03-29 15:03:25.994 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-29 15:03:25.994 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-29 15:03:25.994 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-29 15:03:25.995 DST mode: Unix
+. 2019-03-29 15:03:25.995 --------------------------------------------------------------------------
+. 2019-03-29 15:03:25.995 Looking up host "192.168.2.52" for SSH connection
+. 2019-03-29 15:03:25.995 Connecting to 192.168.2.52 port 22
+. 2019-03-29 15:03:26.008 We claim version: SSH-2.0-WinSCP_release_5.13.2
+. 2019-03-29 15:03:26.023 Server version: SSH-2.0-OpenSSH_7.4
+. 2019-03-29 15:03:26.023 Using SSH protocol version 2
+. 2019-03-29 15:03:26.024 Have a known host key of type ssh-ed25519
+. 2019-03-29 15:03:26.026 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-29 15:03:26.624 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-29 15:03:26.625 Host key fingerprint is:
+. 2019-03-29 15:03:26.625 ssh-ed25519 256 67:95:53:a6:79:02:63:96:14:bb:5b:3f:2c:f8:f5:a6 NjP1Q4j2GaWH3ZZFrCrgxkTiUNBlRdEzCj+Ztyz+eQY=
+. 2019-03-29 15:03:26.625 Host key does not match configured key ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf
+. 2019-03-29 15:03:26.625 Attempt to close connection due to fatal exception:
+* 2019-03-29 15:03:26.625 Host key fingerprint is ssh-ed25519 256 NjP1Q4j2GaWH3ZZFrCrgxkTiUNBlRdEzCj+Ztyz+eQY=.
+* 2019-03-29 15:03:26.625 (Exception) **Host key does not match configured key "ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf"!**
+. 2019-03-29 15:03:26.625 Closing connection.
+. 2019-03-29 15:03:26.625 Sending special code: 12
+. 2019-03-29 15:07:36.341 --------------------------------------------------------------------------
+. 2019-03-29 15:07:36.342 WinSCP Version 5.13.2 (Build 8455) (OS 10.0.17763 - Windows 10 Home)
+. 2019-03-29 15:07:36.342 Configuration: nul
+. 2019-03-29 15:07:36.342 Log level: Normal
+. 2019-03-29 15:07:36.342 Local account: OBERON\Massimo
+. 2019-03-29 15:07:36.342 Working directory: C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram
+. 2019-03-29 15:07:36.342 Process ID: 16332
+. 2019-03-29 15:07:36.342 Command-line: "C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\WinSCP.exe" /console=5.13.2 /consoleinstance=_17808_693 "/ini=nul" "/script=C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\script.txt" "/log=C:\Users\Massimo\Desktop\WinSCPProgram\WinSCPProgram\winscp.log" "/loglevel=0" 
+. 2019-03-29 15:07:36.342 Time zone: Current: GMT-4, Standard: GMT-5 (Eastern Standard Time), DST: GMT-4 (Eastern Daylight Time), DST Start: 2019-03-10, DST End: 2019-11-03
+. 2019-03-29 15:07:36.343 Login time: March 29, 2019 3:07:36 PM
+. 2019-03-29 15:07:36.343 --------------------------------------------------------------------------
+. 2019-03-29 15:07:36.343 Script: Retrospectively logging previous script records:
+> 2019-03-29 15:07:36.343 Script: open sftp://root:***@192.168.2.52 -hostkey="ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf"
+. 2019-03-29 15:07:36.343 --------------------------------------------------------------------------
+. 2019-03-29 15:07:36.343 Session name: root@192.168.2.52 (Ad-Hoc site)
+. 2019-03-29 15:07:36.343 Host name: 192.168.2.52 (Port: 22)
+. 2019-03-29 15:07:36.343 User name: root (Password: Yes, Key file: No, Passphrase: No)
+. 2019-03-29 15:07:36.343 Tunnel: No
+. 2019-03-29 15:07:36.343 Transfer Protocol: SFTP
+. 2019-03-29 15:07:36.343 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2019-03-29 15:07:36.343 Disable Nagle: No
+. 2019-03-29 15:07:36.343 Proxy: None
+. 2019-03-29 15:07:36.343 Send buffer: 262144
+. 2019-03-29 15:07:36.343 SSH protocol version: 2; Compression: No
+. 2019-03-29 15:07:36.343 Bypass authentication: No
+. 2019-03-29 15:07:36.343 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2019-03-29 15:07:36.343 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2019-03-29 15:07:36.343 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2019-03-29 15:07:36.343 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2019-03-29 15:07:36.343 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2019-03-29 15:07:36.343 Simple channel: Yes
+. 2019-03-29 15:07:36.343 Return code variable: Autodetect; Lookup user groups: Auto
+. 2019-03-29 15:07:36.343 Shell: default
+. 2019-03-29 15:07:36.343 EOL: LF, UTF: Auto
+. 2019-03-29 15:07:36.344 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2019-03-29 15:07:36.344 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2019-03-29 15:07:36.344 SFTP Bugs: Auto,Auto
+. 2019-03-29 15:07:36.344 SFTP Server: default
+. 2019-03-29 15:07:36.344 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2019-03-29 15:07:36.344 Cache directory changes: Yes, Permanent: Yes
+. 2019-03-29 15:07:36.344 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2019-03-29 15:07:36.344 DST mode: Unix
+. 2019-03-29 15:07:36.344 --------------------------------------------------------------------------
+. 2019-03-29 15:07:36.344 Looking up host "192.168.2.52" for SSH connection
+. 2019-03-29 15:07:36.344 Connecting to 192.168.2.52 port 22
+. 2019-03-29 15:07:36.352 We claim version: SSH-2.0-WinSCP_release_5.13.2
+. 2019-03-29 15:07:36.373 Server version: SSH-2.0-OpenSSH_7.4
+. 2019-03-29 15:07:36.373 Using SSH protocol version 2
+. 2019-03-29 15:07:36.373 Have a known host key of type ssh-ed25519
+. 2019-03-29 15:07:36.375 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2019-03-29 15:07:36.779 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2019-03-29 15:07:36.780 Host key fingerprint is:
+. 2019-03-29 15:07:36.780 ssh-ed25519 256 67:95:53:a6:79:02:63:96:14:bb:5b:3f:2c:f8:f5:a6 NjP1Q4j2GaWH3ZZFrCrgxkTiUNBlRdEzCj+Ztyz+eQY=
+. 2019-03-29 15:07:36.780 Host key does not match configured key ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf
+. 2019-03-29 15:07:36.780 Attempt to close connection due to fatal exception:
+* 2019-03-29 15:07:36.780 Host key fingerprint is ssh-ed25519 256 NjP1Q4j2GaWH3ZZFrCrgxkTiUNBlRdEzCj+Ztyz+eQY=.
+* 2019-03-29 15:07:36.780 (Exception) **Host key does not match configured key "ssh-ed25519 256 f5:fe:cc:54:ee:cc:29:ac:68:6a:ac:b1:e8:23:0f:cf"!**
+. 2019-03-29 15:07:36.780 Closing connection.
+. 2019-03-29 15:07:36.780 Sending special code: 12
